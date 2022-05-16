@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="Regression Test" preserve-order="true" parallel="classes">
+        <classes>
+            <class name="test.SigninTest" />
+            <class name="test.Searchproductest" />
+            <class name="test.AddtocartTest" />
+            <class name="test.ChangelanguagehoverTest" />
+        </classes>
+    </test>
+</suite>
